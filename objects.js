@@ -2,8 +2,8 @@ var playlist = {
   "Drake": "No Ways"
 };
 
-function updatePlaylist(playlist, artist, song) {
-  playlist[artist] = song;
+function updatePlaylist(playlist, artistName, song) {
+  playlist[artistName] = song;
   return playlist;
 }
 
